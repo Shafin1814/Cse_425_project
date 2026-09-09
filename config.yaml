@@ -1,0 +1,94 @@
+# GNN-BERT Music Context Understanding — Configuration
+# ==================================================
+
+paths:
+  gtzan_audio: "data/raw/gtzan"
+  gtzan_features_30s: "archive (2)/Data/features_30_sec.csv"
+  gtzan_features_3s: "archive (2)/Data/features_3_sec.csv"
+  musiccaps_audio: "data/raw/musiccaps_audio"
+  musiccaps_metadata: "data/raw/musiccaps_metadata.csv"
+  processed_gtzan_graphs: "data/processed/gtzan_graphs"
+  processed_musiccaps_graphs: "data/processed/musiccaps_graphs"
+  mel_specs: "data/processed/mel_specs"
+  bert_cache: "data/processed/bert_cache"
+  splits: "data/splits"
+  results: "results"
+  plots: "results/plots"
+  retrieval_examples: "results/retrieval_examples"
+
+audio:
+  sample_rate: 22050
+  n_mels: 128
+  n_chroma: 12
+  n_mfcc: 20
+  hop_length: 512
+  n_fft: 2048
+  segment_duration: 5.0   # seconds per segment
+
+graph:
+  similarity_threshold: 0.85   # cosine sim threshold for edges
+  max_segments: 12             # max segments per track (for 30s GTZAN clips)
+  node_feature_dim: 160        # mel_mean(128) + chroma_mean(12) + mfcc_mean(20)
+
+bert:
+  model_name: "distilbert-base-uncased"
+  max_length: 128
+  freeze_layers: 4             # freeze first N layers
+  hidden_dim: 768
+
+gnn:
+  model_type: "GraphSAGE"      # GraphSAGE or GAT
+  hidden_dim: 128
+  num_layers: 3
+  dropout: 0.3
+  aggr: "mean"
+
+fusion:
+  method: "cross_attention"    # cross_attention or concat
+  projection_dim: 256
+
+contrastive:
+  temperature: 0.07
+  projection_dim: 256
+
+training:
+  task1:
+    epochs: 15
+    batch_size: 32
+    lr: 2.0e-5
+    weight_decay: 0.01
+    patience: 5
+  task2:
+    epochs: 50
+    batch_size: 32
+    lr: 1.0e-3
+    weight_decay: 1.0e-4
+    patience: 10
+  task3:
+    epochs: 20
+    batch_size: 16
+    lr: 1.0e-4
+    weight_decay: 0.01
+    patience: 7
+  task4:
+    epochs: 30
+    batch_size: 64
+    lr: 5.0e-5
+    weight_decay: 0.01
+    patience: 10
+
+num_genres: 10
+genre_labels:
+  - blues
+  - classical
+  - country
+  - disco
+  - hiphop
+  - jazz
+  - metal
+  - pop
+  - reggae
+  - rock
+
+seed: 42
+device: "cuda"

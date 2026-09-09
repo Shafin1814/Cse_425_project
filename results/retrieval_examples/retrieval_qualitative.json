@@ -1,0 +1,182 @@
+[
+  {
+    "query_caption": "A bagpipe ensemble playing a quick melody in unison, employing trills to ornament it.",
+    "ground_truth_ytid": "-DeAdhYKbGE",
+    "top_matches": [
+      {
+        "matched_ytid": "-r7iz-9v9bA",
+        "similarity": -0.027419300749897957
+      },
+      {
+        "matched_ytid": "-R0267o4lLk",
+        "similarity": -0.027438102290034294
+      },
+      {
+        "matched_ytid": "-nlkWWphiaM",
+        "similarity": -0.03121068887412548
+      }
+    ]
+  },
+  {
+    "query_caption": "This is an instrumental sitar music piece. The sitar is being played at a medium-to-high range. There is a calming and relaxing atmosphere to this piece. This piece can be used in the background of a meditation video. It could also be played during a meditation session at a course.",
+    "ground_truth_ytid": "-f1DNyngKVY",
+    "top_matches": [
+      {
+        "matched_ytid": "-m5ZlWziIeA",
+        "similarity": 0.0022641606628894806
+      },
+      {
+        "matched_ytid": "-lPXTBXa0tE",
+        "similarity": -3.0156224966049194e-06
+      },
+      {
+        "matched_ytid": "-6pcgdLfb_A",
+        "similarity": -0.0020362725481390953
+      }
+    ]
+  },
+  {
+    "query_caption": "The low quality recording features a renaissance music that consists of soft wooden percussion and mellow, harmonized flute melody playing on top of it. The recording is a bit noisy, but it also sounds soulful, mellow, passionate, emotional and vintage - It really puts the listener in a period of renaissance.",
+    "ground_truth_ytid": "-7wUQP6G5EQ",
+    "top_matches": [
+      {
+        "matched_ytid": "-m5ZlWziIeA",
+        "similarity": -0.008741474710404873
+      },
+      {
+        "matched_ytid": "-6pcgdLfb_A",
+        "similarity": -0.010146771557629108
+      },
+      {
+        "matched_ytid": "-lPXTBXa0tE",
+        "similarity": -0.016563426703214645
+      }
+    ]
+  },
+  {
+    "query_caption": "Someone is playing a percussive instrument that reminds a little bit of a tabla while someone else is playing a fast melody on an accordion. A male voice is singing at a higher pitch. This song may be playing live.",
+    "ground_truth_ytid": "-ZHpNr_KRXU",
+    "top_matches": [
+      {
+        "matched_ytid": "-7wUQP6G5EQ",
+        "similarity": -0.015938131138682365
+      },
+      {
+        "matched_ytid": "-r7iz-9v9bA",
+        "similarity": -0.01908993348479271
+      },
+      {
+        "matched_ytid": "-R0267o4lLk",
+        "similarity": -0.019155163317918777
+      }
+    ]
+  },
+  {
+    "query_caption": "This is an R&B/soul music piece. There is a male vocalist singing melodically and in a sensual manner over multiple tracks. The melody of the beat is provided by a string sample. There is a strong bass sound in the piece. The rhythm is provided by a groovy electronic drum beat. There is an urban feel to this piece. It could be used in the soundtrack of a TV series where two characters are sharing intimate moments.",
+    "ground_truth_ytid": "-6pcgdLfb_A",
+    "top_matches": [
+      {
+        "matched_ytid": "-lPXTBXa0tE",
+        "similarity": -0.00855555571615696
+      },
+      {
+        "matched_ytid": "-m5ZlWziIeA",
+        "similarity": -0.008638942614197731
+      },
+      {
+        "matched_ytid": "-r7iz-9v9bA",
+        "similarity": -0.013685672543942928
+      }
+    ]
+  },
+  {
+    "query_caption": "The song is an instrumental. The song is medium tempo played by a solo guitarist on a vintage super tone with an exquisite tone. The song is emotional and passionate. The song has poor audio quality.",
+    "ground_truth_ytid": "-lPXTBXa0tE",
+    "top_matches": [
+      {
+        "matched_ytid": "-m5ZlWziIeA",
+        "similarity": -0.006040164269506931
+      },
+      {
+        "matched_ytid": "-lPXTBXa0tE",
+        "similarity": -0.006244419142603874
+      },
+      {
+        "matched_ytid": "-6pcgdLfb_A",
+        "similarity": -0.009326467290520668
+      }
+    ]
+  },
+  {
+    "query_caption": "The low quality recording features a live performance that consists of fruity male vocal singing over accordion melody, acoustic rhythm guitar chords and shimmering bells. It sounds emotional and hopeful. The recording is a bit noisy and in mono, as it was probably recorded with a phone.",
+    "ground_truth_ytid": "-nlkWWphiaM",
+    "top_matches": [
+      {
+        "matched_ytid": "-m5ZlWziIeA",
+        "similarity": -0.017942624166607857
+      },
+      {
+        "matched_ytid": "-6pcgdLfb_A",
+        "similarity": -0.020949751138687134
+      },
+      {
+        "matched_ytid": "-ZHpNr_KRXU",
+        "similarity": -0.023423543199896812
+      }
+    ]
+  },
+  {
+    "query_caption": "This song features a female voice singing in opera style using only vocables and no words. This is accompanied by violins playing eighth note patterns that change according to the chords being played. The bass follows the root notes of the chords. A muted guitar or string instrument plays arpeggiated chords. This song can be played in a fantasy game.",
+    "ground_truth_ytid": "-r7iz-9v9bA",
+    "top_matches": [
+      {
+        "matched_ytid": "-r7iz-9v9bA",
+        "similarity": -0.01623305305838585
+      },
+      {
+        "matched_ytid": "-R0267o4lLk",
+        "similarity": -0.01695726066827774
+      },
+      {
+        "matched_ytid": "-lPXTBXa0tE",
+        "similarity": -0.018652118742465973
+      }
+    ]
+  },
+  {
+    "query_caption": "This amateur recording features a vinyl scratch being played on a DJ console. This is accompanied by programmed percussion playing a simple beat at a fast tempo. The hi-hat is struck in eighth notes. The snare and kick are played in a unique pattern. A synth plays a two-note lick at different intervals. Other instruments are not audible as the audio quality is low.",
+    "ground_truth_ytid": "-m5ZlWziIeA",
+    "top_matches": [
+      {
+        "matched_ytid": "-m5ZlWziIeA",
+        "similarity": -0.020257502794265747
+      },
+      {
+        "matched_ytid": "-R0267o4lLk",
+        "similarity": -0.023706752806901932
+      },
+      {
+        "matched_ytid": "-6pcgdLfb_A",
+        "similarity": -0.024219289422035217
+      }
+    ]
+  },
+  {
+    "query_caption": "You can hear two people playing various percussive instruments. One is holding the same beat playing on congas while the other is playing a solo changing rhythms and percussive sounds in a complex manner. This song may be playing live demonstrating a solo run.",
+    "ground_truth_ytid": "-R0267o4lLk",
+    "top_matches": [
+      {
+        "matched_ytid": "-m5ZlWziIeA",
+        "similarity": -0.022450484335422516
+      },
+      {
+        "matched_ytid": "-lPXTBXa0tE",
+        "similarity": -0.022743692621588707
+      },
+      {
+        "matched_ytid": "-R0267o4lLk",
+        "similarity": -0.02625298872590065
+      }
+    ]
+  }
+]

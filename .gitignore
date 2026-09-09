@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Large data files
+data/raw/gtzan/
+data/raw/musiccaps_audio/
+data/processed/mel_specs/
+data/processed/bert_cache/
+
+# Model checkpoints (large, ~776MB total — exceeds GitHub 100MB per-file limit)
+results/*.pt
+
+# Files not part of the project
+E-VLM_Router_Final.tex
+CSE425_Project_GNN_BERT_Music_Context.md
+download_musiccaps.ipynb
+archive (2)/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
